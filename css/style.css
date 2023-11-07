@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@font-face {
+    font-family: "Archangelsk";
+    src: url(../fonts/Archangelsk.otf);
+}
+
+
+body {
+    background-color: black;
+}
+
+.f-Roboto {
+    font-family: 'Roboto';
+}
+
+.f-Archangelsk {
+    font-family: 'Archangelsk';
+}
+
+.bg-yellow {
+    background-color: #F8F200;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.fc-yellow {
+    color: #F8F200;
+}
+
+.fc-black {
+    color: black;
+}
+
+.fc-white {
+    color: white
+}
+
+.top-20 {
+    top: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec1-block {
+    max-width: 624px;
+    padding: 50px;
+    left: 40%;
+    position: absolute;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #fffc61;
+    color: black;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem #ffd90062;
+}
+
+
+form {
+    max-width: 460px;
+}
+
+@media (max-width: 768px) {
+    .fs-1 {
+        font-size: calc(0.5rem + 1.5vw) !important;
+    }
+
+    .fs-6 {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (max-width: 593px) {
+    .sec1-block {
+        position: static;
+    }
+
+    .nav {
+        justify-content: space-around;
+    }
+
+    .w-50 {
+        width: auto !important;
+    }
+
+    .sec4 img {
+        width: 100%;
+    }
+}
